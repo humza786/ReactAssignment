@@ -5,6 +5,7 @@
   "dependencies": {
     "create-react-app": "^2.1.8",
     "create-react-project": "0.0.30",
+    "nodemon": "^1.18.10",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"

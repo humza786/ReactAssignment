@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/navBar";
 import "./App.css";
-import Leftbody from "./components/leftBody";
+import Body from "./components/Body/index";
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
 
-        <Leftbody />
+        <Body />
       </React.Fragment>
     );
   }

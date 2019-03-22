@@ -2,7 +2,12 @@ import React, { Component } from "react";
 import "./topbar.css";
 
 class Topbar extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  handleprofile = () => {};
+
   render() {
     return (
       <div className="profile-bar flex">
@@ -11,7 +16,7 @@ class Topbar extends Component {
 
         <input type="text" name="profile" id="profileEdit" maxLength="25" />
 
-        <div className="dropdown-area">
+        <div onClick={this.handleprofile} className="dropdown-area">
           <div id="profileDrop" className="s3-dropdown">
             <div className="selected">profile 5</div>
             <div className="icon expand" />
